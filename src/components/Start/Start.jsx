@@ -19,7 +19,7 @@ function Start() {
           <img className='img_bird_1' src={bird_right} alt="error" />
           <button className="start_button">
             <img src={bird_1} alt="error" />
-            <Link>Start</Link>
+            <Link to="/direct-test">Start</Link>
           </button>
         </div>
         <img className='big_bird_2' src={big_bird_2} alt="" />

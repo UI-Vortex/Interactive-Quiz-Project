@@ -1,0 +1,34 @@
+@media (max-width: 734px) {
+    .question .options {
+        padding: 48px 0px;
+    }
+}
+
+@media (max-width: 1024px) {
+    .options .option_image {
+        width: 300px;
+    }
+
+    .question .options {
+        padding: 48px 100px;
+    }
+}
+
+@media (max-width: 700px) {
+    .test_children .quiz_test {
+        margin-bottom: 100px;
+    }
+}
+
+@media (max-width: 412px) {
+    .options .option_image {
+        width: 300px;
+    }
+    .question .options {
+        padding: 48px 0px;
+    }
+
+    .test_children .quiz_test {
+        margin-bottom: 200px;
+    }
+}
