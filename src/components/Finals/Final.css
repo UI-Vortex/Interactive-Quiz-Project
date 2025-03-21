@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Pacifico&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Sniglet:wght@400;800&display=swap');
+
+.final {
+    width: 100%;
+    height: 729px;
+    background: var(--light-green, linear-gradient(0deg, rgba(0, 163, 0, 0.10) 0%, rgba(0, 163, 0, 0.10) 100%), #FFF);
+}
+
+.final .final_texts {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 100px 0px;
+    flex-direction: column;
+}
+
+.final_texts .final_title {
+    color: var(--dark-green, #1C361C);
+    font-family: Sniglet;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 64px;
+    text-transform: uppercase;
+}
+
+.final_texts .final_results {
+    margin-top: 80px;
+    border-radius: 8px;
+    background: var(--success, #3CA33C);
+    width: 400px;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.final_results .your_score {
+    color: #FFF;
+    font-family: Pacifico;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 54px;
+}
+
+.final_results .score {
+    margin-top: 20px;
+    color: #FFF;
+    font-family: Pacifico;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 54px;
+}
+
+.final_texts .final_button {
+    color: #FFF;
+    font-family: Pacifico;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 54px;
+    padding: 24px 56px 24px 56px;
+    border-radius: 8px;
+    background: var(--success, #3CA33C);
+    border: unset;
+    cursor: pointer;
+    margin-top: 50px;
+}

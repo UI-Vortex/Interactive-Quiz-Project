@@ -4,6 +4,7 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
+    /* align-items: center; */
     position: relative;
     overflow-x: hidden;
 }
@@ -69,4 +70,16 @@
 
 .question .options img {
     cursor: pointer;
+}
+
+.test_children .test_button {
+    padding: 24px 40px 24px 40px;
+    border-radius: 8px;
+    background: var(--success, #5fff5f);
+    border: unset;
+    cursor: pointer;
+    width: 200px;
+    font-size: 15px;
+    /* transform: translateX(660px); */
+    margin-bottom: 20px;
 }

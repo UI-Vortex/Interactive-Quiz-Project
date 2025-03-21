@@ -17,10 +17,12 @@ function Start() {
         <div className="start_texts">
           <h1 className='start_title'>Kids Quiz</h1>
           <img className='img_bird_1' src={bird_right} alt="error" />
-          <button className="start_button">
-            <img src={bird_1} alt="error" />
-            <Link to="/direct-test">Start</Link>
-          </button>
+          <Link to="/direct-test">
+            <div className="start_button">
+              <img src={bird_1} alt="error" />
+              <h3>Start</h3>
+            </div>
+          </Link>
         </div>
         <img className='big_bird_2' src={big_bird_2} alt="" />
       </div>

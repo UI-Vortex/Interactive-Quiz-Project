@@ -39,6 +39,19 @@
     gap: 140px;
 }
 
+.inter_start .start_texts a {
+    color: #FFF;
+    text-align: center;
+    font-family: Pacifico;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 54px;
+    text-decoration: none;
+}
+
+.start_texts a .start_button h3 {}
+
 .inter_start .start_texts .start_title {
     color: var(--dark-green, #1C361C);
     font-family: Pacifico;
@@ -70,15 +83,4 @@
 
 .start_texts .start_button:hover {
     background: var(--success---pressed, #266626);
-}
-
-.start_button a {
-    color: #FFF;
-    text-align: center;
-    font-family: Pacifico;
-    font-size: 40px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 54px;
-    text-decoration: none;
 }
