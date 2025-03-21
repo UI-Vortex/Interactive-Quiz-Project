@@ -1,0 +1,7 @@
+@media (max-width: 684px) {
+    .inter_start .big_bird_2 {
+        transform: translateY(30px);
+    }
+}
+
+@media (max-width: 375px) {}
