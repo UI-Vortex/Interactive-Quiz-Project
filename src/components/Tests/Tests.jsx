@@ -13,7 +13,7 @@ import imagetest_7 from "../Data-Answer/Data-images/imagetest_7.png";
 
 const quiz = [
     {
-        questionText: 'blackbird',
+        questionText: 'Qoraqush',
         answerOptions: [
             { answerImage: imagetest_1, isCorrect: false },
             { answerImage: imagetest_2, isCorrect: false },
@@ -22,7 +22,7 @@ const quiz = [
         ],
     },
     {
-        questionText: 'woodpecker',
+        questionText: 'Qaqildoq',
         answerOptions: [
             { answerImage: imagetest_3, isCorrect: false },
             { answerImage: imagetest_4, isCorrect: false },
@@ -31,7 +31,7 @@ const quiz = [
         ],
     },
     {
-        questionText: 'magpie',
+        questionText: 'Sa’va yoki Qarg’atoy',
         answerOptions: [
             { answerImage: imagetest_2, isCorrect: true },
             { answerImage: imagetest_1, isCorrect: false },
@@ -40,7 +40,7 @@ const quiz = [
         ],
     },
     {
-        questionText: 'robin',
+        questionText: 'Qizilko‘krak',
         answerOptions: [
             { answerImage: imagetest_1, isCorrect: false },
             { answerImage: imagetest_5, isCorrect: false },
@@ -49,7 +49,7 @@ const quiz = [
         ],
     },
     {
-        questionText: 'sparrow',
+        questionText: 'Chumchuq',
         answerOptions: [
             { answerImage: imagetest_6, isCorrect: true },
             { answerImage: imagetest_5, isCorrect: false },
@@ -58,7 +58,7 @@ const quiz = [
         ],
     },
     {
-        questionText: 'jay',
+        questionText: 'Qaychiqush',
         answerOptions: [
             { answerImage: imagetest_6, isCorrect: false },
             { answerImage: imagetest_5, isCorrect: false },
@@ -67,7 +67,7 @@ const quiz = [
         ],
     },
     {
-        questionText: 'blue tit',
+        questionText: 'Ko‘k chumchuq',
         answerOptions: [
             { answerImage: imagetest_6, isCorrect: false },
             { answerImage: imagetest_5, isCorrect: true },
@@ -118,7 +118,7 @@ function Tests() {
                     <div className="background_quiz"></div>
                     <h1 className="quiz_title">Kids Quiz</h1>
                 </div>
-                <h2 className="children_where">Where’s the ...?</h2>
+                <h2 className="children_where">Qayerda ... ?</h2>
                 <div className="question">
                     <h1 className='question_title'>{quiz[currentQuestion].questionText}</h1>
                     <div className="options">

@@ -72,6 +72,11 @@
     cursor: pointer;
 }
 
+.question .options img:hover {
+    transform: scale(1.05);
+    transition: transform 0.3s ease-in-out;
+}
+
 .test_children .test_button {
     padding: 24px 40px 24px 40px;
     border-radius: 8px;
@@ -82,4 +87,10 @@
     font-size: 15px;
     /* transform: translateX(660px); */
     margin-bottom: 20px;
+}
+
+.test_children .test_button:hover {
+    background: var(--dark-green, #1C361C);
+    color: var(--white, #FFFFFF);
+    transition: background 0.4s ease-in-out;
 }

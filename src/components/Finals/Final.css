@@ -3,6 +3,7 @@
 .final {
     width: 100%;
     height: 729px;
+    overflow: hidden;
     background: var(--light-green, linear-gradient(0deg, rgba(0, 163, 0, 0.10) 0%, rgba(0, 163, 0, 0.10) 100%), #FFF);
 }
 
@@ -68,4 +69,9 @@
     border: unset;
     cursor: pointer;
     margin-top: 50px;
+    transition: .3s;
+}
+
+.final_texts .final_button:hover {
+    transform: translateY(-5px);
 }

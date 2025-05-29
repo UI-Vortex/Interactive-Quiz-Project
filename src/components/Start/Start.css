@@ -50,8 +50,6 @@
     text-decoration: none;
 }
 
-.start_texts a .start_button h3 {}
-
 .inter_start .start_texts .start_title {
     color: var(--dark-green, #1C361C);
     font-family: Pacifico;
@@ -78,9 +76,10 @@
     background: var(--success, #3CA33C);
     cursor: pointer;
     border: unset;
-    transition: .5s;
+    transition: .3s;
 }
 
 .start_texts .start_button:hover {
     background: var(--success---pressed, #266626);
+    transform: translateY(-5px);
 }
